@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Superhero Card</title>
+  <style>
+
+    /* Typography — font, size, weight, colour for the whole page */
+    body {
+   background-color: #10a7e3; 
+   color: white;
+   font-family: sans-serif;
+   text-decoration:dashed;
+    }
+
+    /* Typography + Text Shadow — big bold title with an orange shadow */
+    .hero-name {
+    font-size: 60px;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 3px 3px  #ff8c00;
+    transform: rotate(11deg);
+
+    }
+
+    /* Typography + Text Transform — tagline becomes Title Case */
+    .tagline {
+        font-style: italic;
+        color: lightblue;
+      text-transform: capitalize;
+      font-size: 40px;
+
+    }
+
+    /* Text Transform + Text Decoration — section headings in CAPS with underline */
+    .label {
+      text-transform: uppercase;
+      text-decoration: underline;
+      color:coral;
+    }
+
+    /* Typography — powers stand out in bold green */
+    .power {
+      font-weight: bold;
+      color: lightgreen;
+      font-size: 30px;
+      font-family: serif;
+      text-shadow: 3px 3px  #1799175b;
+    }
+
+    /* Text Decoration — weaknesses are crossed out */
+    .weakness {
+      text-decoration: overline;
+      color: darkred;
+      text-shadow: 3px 3px  #8b00005b;
+      font-weight: bold;
+    }
+
+    /* Transform — the badge is tilted to the side */
+    .badge {
+    font-size: 30px;
+    font-weight: bold;
+    color: gold;
+    transform: rotate(15deg);
+    }
+
+    /* Typography — footer text */
+    .made-by {
+     color: magenta;
+     font-style: italic;
+     font-weight: bold;
+     font-family: serif;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1 class="hero-name">Thunder Kid</h1>
+  <p class="tagline">the most powerful hero in the school</p>
+
+  <h2 class="label">super powers</h2>
+  <p class="power">Can run faster than a cheetah</p>
+  <p class="power">Can lift a school bus</p>
+
+  <h2 class="label">weaknesses</h2>
+  <p class="weakness">Maths homework</p>
+  <p class="weakness">Broccoli</p>
+
+  <p class="badge">Top Hero</p>
+
+  <p class="made-by">Created by siddharth</p>
+
+</body>
+</html>
